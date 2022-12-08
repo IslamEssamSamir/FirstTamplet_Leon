@@ -163,7 +163,7 @@ body {
 /* =================================================================== */
 
 .landing {
-  background-image: url(../images/Landing.avif);
+  background-image: url(../images/pexels-eberhard-grossgasteiger-1417647.jpg);
   background-size: cover;
   height: calc(100vh - 64px);
   position: relative;
@@ -180,13 +180,15 @@ body {
 
 .landing .intro-text h1 {
   margin: 0;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 50px;
   text-align: center;
   color: var(--main-color);
 }
 
 .landing .intro-text p {
+  font-weight: bold;
+  color: #ebeced;
 }
 
 /* =================================================================== */
