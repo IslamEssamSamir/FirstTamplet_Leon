@@ -280,7 +280,8 @@ body {
 }
 
 @media (max-width: 1199px) {
-  .services .services-content .image img {
+  .services .services-content .image img , .services .services-content .image::before {
+    
     display: none;
   }
 }
